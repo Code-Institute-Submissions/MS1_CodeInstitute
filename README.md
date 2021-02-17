@@ -65,3 +65,8 @@ care to considr as many use cases as possible and tried to address them.
 + easy to navigate
 + fun to use
 
+## Links, resources and such. To be sorted out
+[Image size resources etc](https://www.seoptimer.com/blog/website-header-size/#:~:text=Recommended%20website%20header%20image%20pixel,1280px)
+
+[Dummy Image, place holder images](https://dummyimage.com/)
+
