@@ -1,0 +1,35 @@
+/*-------------------------------Set up fonts to be used across the site*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
+/*-------------------------------Site wide*/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*-------------------------------Header*/
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.header-text {
+    color: #545454;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*-------------------------------NavMenu*/
+
+
+
+.nav-item {
+    margin-left: auto;
+}
+
+
+

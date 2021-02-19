@@ -70,3 +70,14 @@ care to considr as many use cases as possible and tried to address them.
 
 [Dummy Image, place holder images](https://dummyimage.com/)
 
+[Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+
+[Font Awesome](https://fontawesome.com/account/cdn)
+
+[Google Fonts](https://fonts.google.com/?vfonly=true)
+
+https://www.w3schools.com/cssref/pr_background-position.asp
+
++ https://www.youtube.com/watch?v=23bpce-5s8I&list=PL55RiY5tL51rLqH4-8LBVlUTIFF70dxhb&index=3&ab_channel=Academind
+ + nav bar bootstrap code
+
