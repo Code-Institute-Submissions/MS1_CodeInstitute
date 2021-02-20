@@ -17,10 +17,6 @@ body {
 .header-text {
     color: #545454;
     text-align: center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /*-------------------------------NavMenu*/
@@ -31,5 +27,26 @@ body {
     margin-left: auto;
 }
 
+/*-------------------------------Home*/
 
 
+.main-image {
+    background-size: 300px;
+    background-color: aqua;
+    text-align: center;
+    min-height: 400px;
+    
+}
+
+.about-me {
+    background-color: blueviolet;
+    text-align: center;
+
+}
+
+.quote {
+    background-size: 300px 150px;
+    background-color: brown;
+    text-align: center;
+    min-height: 150px;
+}
