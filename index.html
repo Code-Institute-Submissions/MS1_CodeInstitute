@@ -8,8 +8,7 @@
     <!--Bootstrap CSS, fontawesome, CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9c1ef4fe49.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>David O'Quigley | Creative Catalyst</title>
 </head>
@@ -20,8 +19,8 @@
     <!----------------------------Navbar---------------------------->
     ​
     <header>
-        <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">DOQ</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,8 +47,8 @@
     <main>
         <div class="container-fluid">
             <section>
-                <div id="aboutMe" class="row justify-content-center">
-                    <div class="col-md-10">
+                <div id="aboutMe" class="row justify-content-center about-me">
+                    <div class="col-md-10 mr-auto ml-auto">
                         <div class="row">
                             <a class="col-md-4 main-image" href="#"></a>
                             <div class="col-md-8 about-me">
@@ -135,33 +134,60 @@
 
             <hr class="feature-divider">
             <section>
-                <div id="projects" class="row justify-content-center">
-                    <div class="col-md-11">
-                        <h2 class="feature-heading">Projects</h2>
-                        <div class="col-md-8 media project-tiles">
-                            <img src="https://dummyimage.com/70/080707/fff.png&text=Proj_01"
+                <div id="projects" class="row">
+                    <div class="col project-container">
+                        <div class="col-md-8 media project-article">
+                            <h2 class="feature-heading">Projects</h2>
+                            <p>
+                                An eclectic background means I've been able to work across several different fields,
+                                each
+                                requireing their own
+                                set of skills and problems to be solved. Here are just some of the projects that have
+                                moulded me.
+                            </p>
+                        </div>
+                        <div class="col-md-8 media project-article">
+                            <img src="https://dummyimage.com/500/080707/fff.png&text=Proj_01"
                                 class="d-none d-sm-block mr-3 project-images" alt="Project 1" />
                             <div class="media-body">
-                                <h3 class="mt-0 project-headers">Project 1</h3>
-                                <p>Here is some text about this project, what it was for, how I went about doing it etc.
+                                <h3 class="mt-0 project-headers">Social Cycle</h3>
+                                <p>Here is some text about this project, what it was for, how I went about doing it
+                                    etc.Etiam nulla nibh, feugiat ac urna ac, elementum pretium magna. Cras ac metus
+                                    odio. Nulla facilisi. Aliquam sed cursus urna. Donec risus ante, sollicitudin ac
+                                    ornare vel, pretium nec elit. Nunc aliquet molestie egestas. Suspendisse vestibulum
+                                    arcu non luctus aliquet. Sed elementum auctor justo nec facilisis. Ut ex tellus,
+                                    eleifend vitae mi et, suscipit volutpat neque.Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-8 media project-tiles">
-                            <img src="https://dummyimage.com/70/080707/fff.png&text=Proj_02"
+                        <div class="col-md-8 media project-article">
+                            <img src="https://dummyimage.com/500/080707/fff.png&text=Proj_02"
                                 class="d-none d-sm-block mr-3 project-images" alt="Project 2" />
                             <div class="media-body">
-                                <h3 class="mt-0 project-headers">Project 2</h3>
-                                <p>Here is some text about this project, what it was for, how I went about doing it etc.
+                                <h3 class="mt-0 project-headers">Pagoda</h3>
+                                <p>Here is some text about this project, what it was for, how I went about doing it
+                                    etc.Etiam nulla nibh, feugiat ac urna ac, elementum pretium magna. Cras ac metus
+                                    odio. Nulla facilisi. Aliquam sed cursus urna. Donec risus ante, sollicitudin ac
+                                    ornare vel, pretium nec elit. Nunc aliquet molestie egestas. Suspendisse vestibulum
+                                    arcu non luctus aliquet. Sed elementum auctor justo nec facilisis. Ut ex tellus,
+                                    eleifend vitae mi et, suscipit volutpat neque.Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-8 media project-tiles">
-                            <img src="https://dummyimage.com/70/080707/fff.png&text=Proj_03"
+                        <div class="col-md-8 media project-article">
+                            <img src="https://dummyimage.com/500/080707/fff.png&text=Proj_03"
                                 class="d-none d-sm-block mr-3 project-images" alt="Project 3" />
                             <div class="media-body">
-                                <h3 class="mt-0 project-headers">Project 3</h3>
-                                <p>Here is some text about this project, what it was for, how I went about doing it etc.
+                                <h3 class="mt-0 project-headers">LCEF - 10 Year Aniversay</h3>
+                                <p>Here is some text about this project, what it was for, how I went about doing it
+                                    etc.Etiam nulla nibh, feugiat ac urna ac, elementum pretium magna. Cras ac metus
+                                    odio. Nulla facilisi. Aliquam sed cursus urna. Donec risus ante, sollicitudin ac
+                                    ornare vel, pretium nec elit. Nunc aliquet molestie egestas. Suspendisse vestibulum
+                                    arcu non luctus aliquet. Sed elementum auctor justo nec facilisis. Ut ex tellus,
+                                    eleifend vitae mi et, suscipit volutpat neque.Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
                                 </p>
                             </div>
                         </div>
@@ -174,34 +200,35 @@
             <!----------------------------FORM---------------------------->
 
             <section>
-                <div id="contact" class="row justify-content-center">
-                    <div class="col-md-8">
-                        <h2 class="feature-heading">Contact</h2>
-                        <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
-                            <div class="form-group">
-                                <label for="fullname">Fullname</label>
-                                <input type="text" class="form-control" id="inputFullname" name="fullname" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="inputEmail">Email address</label>
-                                <input type="email" class="form-control" id="inputEmail" name="email"
-                                    aria-describedby="emailHelp" required>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
-                                    anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="textareaMessageDescription">Message</label>
-                                <textarea class="form-control" id="textareaMessageDescription" rows="3"
-                                    name="messageDescription" required></textarea>
-                            </div>
-                            <div class="form-row text-center">
-                                <div class="col">
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
-                            </div>
-                        </form>
+                <form class="container-fluid">
+                    <div id="contact" class="row my-form">
+                        <div class="col form-container mr-auto ml-auto">
+                            <h2 class="feature-heading">Contact</h2>
+                            <p>Drop me an email with any questions, collaboration proposals or job offers.</p>
+                            <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                                <div class="form-group">
+                                    <label for="fullname">Name</label>
+                                    <input type="text" class="form-control" id="inputFullname" name="fullname" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail">Email address</label>
+                                    <input type="email" class="form-control" id="inputEmail" name="email"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="textareaMessageDescription">Message</label>
+                                    <textarea class="form-control" id="textareaMessageDescription" rows="3"
+                                        name="messageDescription" required></textarea>
+                                </div>
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                </div>
+                </form>
             </section>
             <hr class="feature-divider">
 
@@ -210,9 +237,50 @@
     ​
     ​
     <!----------------------------Footer---------------------------->
-    <footer>
-        This is the footer.
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-8 col-md-6 mr-auto ml-auto my-footer">
+                <ul class="socials">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span class="sr-only">Github</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" aria-label="Back to top" class="back-to-top">
+                    <p>
+                        <i class="fas fa-angle-up"></i>
+                        Back to top
+                        <i class="fas fa-angle-up"></i>
+                    </p>
+                </a>
+
+                </a>
+            </div>
+        </div>
     </footer>
+
+
     <!--Bootstrap JS and Popper-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

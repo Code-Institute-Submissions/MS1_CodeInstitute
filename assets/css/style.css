@@ -8,30 +8,36 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.justify-content-center {
+.feature-divider {
+    margin: 5rem 0;
+}
+
+/* .justify-content-center {
     margin: 0 15px 0 15px;
-}
-/*-------------------------------Header*/
+} */
 
-.jumbotron {
-    margin-bottom: 0px;
-}
+.feature-heading {
+    font-weight: 300;
+    line-height: 1;
+    font-size: 50px;
+    margin-top: 5rem;
+    color: purple;
+    letter-spacing: -.05rem;
+  }
 
-.header-text {
-    color: #545454;
-    text-align: center;
-}
 
 /*-------------------------------NavMenu*/
-
 
 
 .nav-item {
     margin-left: auto;
 }
 
-/*-------------------------------Home*/
+/*-------------------------------Home/About Me*/
 
+.about-me{
+    
+}
 
 .main-image {
     background: url(../images/DavidHeadShot.jpg);
@@ -42,56 +48,112 @@ body {
     height: 400px;
 }
 
-.quote {
-    background-size: 300px 150px;
-    background-color: brown;
-    text-align: center;
-    min-height: 150px;
-}
 
+/*-------------------------------Projects*/
 
-.feature-divider {
-    margin: 5rem 0;
-}
-
-
-.project-tiles{
+.project-article{
     margin-top: 30px;
+    background-color: crimson;
+    margin-left: auto;  
+    margin-right: auto;
 }
 
-.project-headers{
-  
+.project-tiles div h3{
+   font-weight: 500;
+}
+.project-container{
+    margin-left: auto;  
+    margin-right: auto;
+    background-color: chocolate;
 }
 
 .project-images {
-
+    margin: 43px 10px 0 0;
+    height: 120px;
+    width: 120px;
 }
 
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
 }
-/* Thin out the marketing headings */
-.feature-heading {
-    font-weight: 300;
-    line-height: 1;
-    font-size: 50px;
-    margin-top: 5rem;
-    color: purple;
-    letter-spacing: -.05rem;
-  }
-  /* RESPONSIVE CSS
--------------------------------------------------- */
-@media (min-width: 40em) {  
+
+
+
+
+.my-form {
+    margin: 0 auto;
+    
+}
+
+ .form-container {
+     max-width: 630px;
+ }
+
+/*-------------------------------FOOTER*/
+
+footer {
+    padding: 10px;
+}
+
+.my-footer {
+    padding: 10px;
+    text-align: center;
+}
+.socials {
+    margin-bottom: 50px;
+    padding: 0;
+}
+.my-footer h4{
+    font-size: 1.75rem;
+    color: blueviolet;
+}
+.socials li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 1.75rem;
+    line-height: 7px;
+    text-align: center;
+    color: #e71818;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.socials li a i:hover{
+    color: rgba(0, 0, 0, .5);
+}
+
+/*-------------------------------RESPONSIVE CSS*/
+
+@media (min-width: 640px) {  
     .feature-heading {
         /* font-size: 50px;
         margin-top: 5rem; */
         color: red;
     }
+    .my-form {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    .test-col {
+        background-color: orangered;
+    }
 }
-@media (min-width: 62em) {
+
+
+@media (min-width: 992px) {
     .feature-heading {
         /* margin-top: 7rem; */
         color: blue;
+    }
+    .my-form {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    .test-col {
+        background-color: yellow;
     }
 }
