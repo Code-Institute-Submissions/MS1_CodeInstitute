@@ -81,3 +81,7 @@ https://www.w3schools.com/cssref/pr_background-position.asp
 + https://www.youtube.com/watch?v=23bpce-5s8I&list=PL55RiY5tL51rLqH4-8LBVlUTIFF70dxhb&index=3&ab_channel=Academind
  + nav bar bootstrap code
 
+https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors
+
+https://stackoverflow.com/questions/18133653/how-to-change-bootstrap-scrollspy-active-link-color
+

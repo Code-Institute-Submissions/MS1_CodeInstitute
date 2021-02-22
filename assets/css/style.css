@@ -1,29 +1,56 @@
 /*-------------------------------Set up fonts to be used across the site*/
 
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
 
 /*-------------------------------Site wide*/
 
+
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #fafafa;
 }
 
-.feature-divider {
+.section-break {
     margin: 5rem 0;
+    border-top: 1px solid rgb(51,204,204);
+    width: 70%;
+    align-content: center;
 }
-
-/* .justify-content-center {
-    margin: 0 15px 0 15px;
-} */
 
 .feature-heading {
-    font-weight: 300;
+    font-weight: 500;
+    color: rgb(51,204,204);
     line-height: 1;
     font-size: 50px;
     margin-top: 5rem;
-    color: purple;
     letter-spacing: -.05rem;
-  }
+    /* text-shadow: 2px 2px 5px rgb(102, 102, 102); */
+}
+
+.article {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.section-heading{
+    margin-top: 30px;
+    margin-left: auto;  
+    margin-right: auto;
+    max-width: 1020px;
+}
+
+.project-devide {
+    height: 2rem;
+    width: 50%;
+    border-top: 1px solid rgb(51,204,204);
+}
+
+.section-container{
+    margin-left: auto;  
+    margin-right: auto;
+}
 
 
 /*-------------------------------NavMenu*/
@@ -33,38 +60,88 @@ body {
     margin-left: auto;
 }
 
+nav .navbar-nav li a {
+    color: rgb(51,204,204) !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+nav .navbar-nav li a:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.socials-top {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.socials-top li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 1.5rem;
+    line-height: 7px;
+    text-align: center;
+    color: rgb(51,204,204);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.socials-top li a i:hover{
+    color: rgb(255, 255, 255);
+}
+
+.nav-link.active {
+    color: rgb(255, 255, 255) !important;
+  }
+
 /*-------------------------------Home/About Me*/
 
+
 .about-me{
-    
+}
+
+.about-me-text {
+    margin-top: 25px;
+    margin-left: 15px;
+    /* padding: 0 15px 0 15px; */
 }
 
 .main-image {
     background: url(../images/DavidHeadShot.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
-    width: 300px;
-    height: 400px;
+    background-position: center;
+    position: relative;
+    height: 250px;
+    margin: 25px 0 15px 0;
+    padding: 0;
 }
 
 
 /*-------------------------------Projects*/
 
+.project-headers{
+    color: rgb(102, 102, 102);
+}
+
 .project-article{
     margin-top: 30px;
-    background-color: crimson;
     margin-left: auto;  
     margin-right: auto;
+    max-width: 1020px;
+}
+
+.project-article p{
+    float: right;
 }
 
 .project-tiles div h3{
    font-weight: 500;
-}
-.project-container{
-    margin-left: auto;  
-    margin-right: auto;
-    background-color: chocolate;
 }
 
 .project-images {
@@ -73,12 +150,41 @@ body {
     width: 120px;
 }
 
-.lead {
-    font-size: 1.25rem;
-    font-weight: 300;
+.project-article-small-1 {
+    background-image: url(https://dummyimage.com/500x250/080707/fff.png&text=Proj_01);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 250px;
+    width: 90%;
+    margin: 25px 15px 0 15px;
+    padding: 0;
 }
 
+.project-article-small-2 {
+    background-image: url(https://dummyimage.com/500x250/080707/fff.png&text=Proj_02);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 250px;
+    width: 90%;
+    margin: 25px 15px 0 15px;
+    padding: 0;}
 
+.project-article-small-3 {
+    background-image: url(https://dummyimage.com/500x250/080707/fff.png&text=Proj_03);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 250px;
+    width: 90%;
+    margin: 25px 15px 0 15px;
+    padding: 0;}
+
+/*-------------------------------FORM*/
 
 
 .my-form {
@@ -87,10 +193,26 @@ body {
 }
 
  .form-container {
-     max-width: 630px;
+    max-width: 630px;
  }
 
+ button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #212529;
+    border: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(102, 102, 102);
+}
 /*-------------------------------FOOTER*/
+
 
 footer {
     padding: 10px;
@@ -101,21 +223,19 @@ footer {
     text-align: center;
 }
 .socials {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: 25px;
     padding: 0;
 }
-.my-footer h4{
-    font-size: 1.75rem;
-    color: blueviolet;
-}
+
 .socials li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    font-size: 1.75rem;
+    font-size: 2rem;
     line-height: 7px;
     text-align: center;
-    color: #e71818;
+    color: rgb(51, 204, 204);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -123,37 +243,34 @@ footer {
 }
 
 .socials li a i:hover{
-    color: rgba(0, 0, 0, .5);
+    color: rgb(255, 255, 255);
 }
 
+.back-to-top {
+    font-size: .75rem;
+    color: rgb(51, 204, 204);
+    margin-bottom: 25px;
+}
+
+.back-to-top:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 /*-------------------------------RESPONSIVE CSS*/
 
 @media (min-width: 640px) {  
     .feature-heading {
-        /* font-size: 50px;
-        margin-top: 5rem; */
-        color: red;
+        font-size: 50px;
+        margin-top: 5rem;
     }
     .my-form {
-        margin: 0 auto;
         max-width: 70%;
-    }
-    .test-col {
-        background-color: orangered;
     }
 }
 
 
 @media (min-width: 992px) {
-    .feature-heading {
-        /* margin-top: 7rem; */
-        color: blue;
-    }
     .my-form {
-        margin: 0 auto;
         max-width: 50%;
-    }
-    .test-col {
-        background-color: yellow;
     }
 }
