@@ -69,6 +69,7 @@ p{
     text-decoration: none;
 }
 /*-------------------------------BlockQuote*/
+/* All of this <blockquote> css was sourced and has been referenced in the README */
 
 blockquote{
   font-size: 1.4em;
@@ -81,7 +82,7 @@ blockquote{
   border-left:8px solid rgba(51,204,204,0.5) ;
   line-height:1.6;
   position: relative;
-  /* background:#EDEDED; */
+
 }
 
 blockquote::before{
@@ -157,7 +158,6 @@ nav .navbar-nav li a:hover {
 .about-me-text {
     margin-top: 25px;
     margin-left: 15px;
-    /* padding: 0 15px 0 15px; */
 }
 
 .main-image {
