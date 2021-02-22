@@ -85,3 +85,6 @@ https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors
 
 https://stackoverflow.com/questions/18133653/how-to-change-bootstrap-scrollspy-active-link-color
 
+https://codepen.io/cliftwalker/pen/XJaEXY
+
+https://favicon.io/favicon-generator/

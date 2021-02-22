@@ -2,6 +2,7 @@
 
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 
 
 /*-------------------------------Site wide*/
@@ -26,7 +27,6 @@ body {
     font-size: 50px;
     margin-top: 5rem;
     letter-spacing: -.05rem;
-    /* text-shadow: 2px 2px 5px rgb(102, 102, 102); */
 }
 
 .article {
@@ -52,7 +52,43 @@ body {
     margin-right: auto;
 }
 
+/*-------------------------------BlockQuote*/
 
+blockquote{
+  font-size: 1.4em;
+  width:50%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid rgba(51,204,204,0.5) ;
+  line-height:1.6;
+  position: relative;
+  /* background:#EDEDED; */
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color: rgba(51,204,204, 0.5);
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
 /*-------------------------------NavMenu*/
 
 
@@ -151,7 +187,7 @@ nav .navbar-nav li a:hover {
 }
 
 .project-article-small-1 {
-    background-image: url(https://dummyimage.com/500x250/080707/fff.png&text=Proj_01);
+    background-image: url(../images/social_cycle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -163,7 +199,7 @@ nav .navbar-nav li a:hover {
 }
 
 .project-article-small-2 {
-    background-image: url(https://dummyimage.com/500x250/080707/fff.png&text=Proj_02);
+    background-image: url(../images/pagoda.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -174,7 +210,7 @@ nav .navbar-nav li a:hover {
     padding: 0;}
 
 .project-article-small-3 {
-    background-image: url(https://dummyimage.com/500x250/080707/fff.png&text=Proj_03);
+    background-image: url(../images/lcef.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
