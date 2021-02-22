@@ -52,6 +52,19 @@ body {
     margin-right: auto;
 }
 
+.link {
+    display: inline-block;
+    color: rgb(51,204,204);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.link:hover{
+    color: #333333;
+    text-decoration: none;
+}
 /*-------------------------------BlockQuote*/
 
 blockquote{
@@ -286,6 +299,10 @@ footer {
     font-size: .75rem;
     color: rgb(51, 204, 204);
     margin-bottom: 25px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .back-to-top:hover{

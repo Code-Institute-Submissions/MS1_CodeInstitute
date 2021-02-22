@@ -88,3 +88,5 @@ https://stackoverflow.com/questions/18133653/how-to-change-bootstrap-scrollspy-a
 https://codepen.io/cliftwalker/pen/XJaEXY
 
 https://favicon.io/favicon-generator/
+
+bug: favicon
